@@ -4,7 +4,7 @@
         <title>Sky Storm</title>
         <link rel="stylesheet" href="css/skystorm.css"/>
         <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css"/>
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http:////code.jquery.com/jquery-1.11.0.min.js"></script>
         <script charset="UTF-8" src="js/jquery.mobile-1.4.2.js"></script>
         <script charset="UTF-8" src="js/cordova.js"></script>              
     </head>
@@ -56,7 +56,7 @@
             document.addEventListener('deviceready', function(){
                 alert('Welcome to SkyStorm');
             }, false);
-        function loadMore(obj) {
+        function loadMore(obj) { 
             var rid = $(obj).attr('data-row');
             if (rid < 5) {
                 $('#data-row-' + (parseInt(rid)+1)).show();
